@@ -2,102 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d9f858e-1ba5-484e-87ec-88a3b5e8bc7a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/climacon-font/climacons-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/climacon-font/climacons-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/climacon-font/climacons-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/img/paris-lg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/img/paris-sm.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/states.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/stocks/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/stocks/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/climacon-font/climacons-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/climacon-font/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/climacon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/climacon.styl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/styles.styl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Download.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Drizzle-Alt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Drizzle-Moon-Alt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Drizzle-Moon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Drizzle-Sun-Alt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Drizzle-Sun.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Drizzle.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Fog-Alt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Fog-Moon-Alt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Fog-Moon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Fog-Sun-Alt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Fog-Sun.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Fog.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Hail-Alt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Hail-Moon-Alt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Hail-Moon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Hail-Sun-Alt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Hail-Sun.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Hail.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Lightning-Moon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Lightning-Sun.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Lightning.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Moon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Rain-Alt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Rain-Moon-Alt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Rain-Moon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Rain-Sun-Alt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Rain-Sun.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Rain.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Refresh.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Snow-Alt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Snow-Moon-Alt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Snow-Moon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Snow-Sun-Alt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Snow-Sun.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Snow.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Sun.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Upload.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Wind-Moon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Wind-Sun.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud-Wind.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Cloud.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Compass-East.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Compass-North.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Compass-South.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Compass-West.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Compass.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Degrees-Celcius.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Degrees-Fahrenheit.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Moon-First-Quarter.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Moon-Full.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Moon-Last-Quarter.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Moon-New.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Moon-Waning-Crescent.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Moon-Waning-Gibbous.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Moon-Waxing-Crescent.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Moon-Waxing-Gibbous.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Moon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Shades.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Snowflake.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Sun-Low.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Sun-Lower.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Sun.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Sunrise.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Sunset.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Thermometer-100.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Thermometer-25.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Thermometer-50.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Thermometer-75.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Thermometer-Zero.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Thermometer.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Tornado.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Umbrella.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widgets/weather/fullscreen_widget/svg/Wind.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/widgets/muni/index.html" afterPath="$PROJECT_DIR$/widgets/bus/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/widgets/muni/index.js" afterPath="$PROJECT_DIR$/widgets/bus/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/widgets/voice/index.js" afterPath="$PROJECT_DIR$/client/voiceManager/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/widgets/weather/index.html" afterPath="$PROJECT_DIR$/widgets/weather/index1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/index.html" afterPath="$PROJECT_DIR$/client/index.html" />
     </list>
     <ignored path="smartglass.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -170,16 +75,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/widgets/stocks/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/widgets/date/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -210,11 +105,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/widgets/weather/fullscreen_widget/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.76781327">
+            <state vertical-scroll-proportion="-18.382353">
               <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.12285012">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -244,6 +149,7 @@
         <option value="$PROJECT_DIR$/client/states.js" />
         <option value="$PROJECT_DIR$/client/voiceManager/index.js" />
         <option value="$PROJECT_DIR$/widgets/weather/fullscreen_widget/index.html" />
+        <option value="$PROJECT_DIR$/client/index.html" />
       </list>
     </option>
   </component>
@@ -718,8 +624,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/widgets/weather/fullscreen_widget/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76781327">
+        <state vertical-scroll-proportion="-18.382353">
           <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12285012">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding />
         </state>
       </provider>
