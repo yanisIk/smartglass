@@ -20,10 +20,27 @@ if (Meteor.isClient) {
       { text: "This is task 1" },
       { text: "This is task 2" },
       { text: "This is task 3" }
-    ]
-  });
+  ],
+  autoScroll : function() {
+      window.scrollBy(0,1);
+      scrolldelay = setTimeout(pageScroll(),10);
+  }
+  })
+
+  Template.news.onRendered(function(){
+
+  })
+
+  Template.news.events({
+      "click .news-tile" : function(event,template){
+          console.log("event: ", event);
+          console.log("template: ", template);
+      }
+  })
+
   Meteor.call('newsStart');
 }
+
 
 /**
  * Server.
@@ -53,6 +70,10 @@ function nytimes() {
     console.log(content.results[i]);
     Headlines.insert(content.results[i]);
   }
+}
+
+function pageScroll() {
+
 }
 
 /**

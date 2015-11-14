@@ -1,7 +1,15 @@
-<template name="news">
-  <div style="margin-top: 10px">
+<template name="news" >
+  <div class="wrapper-news" style="margin-top: 10px">
     {{#each headlines}}
-      <span style="color: grey">{{geo_facet.[0]}}</span> {{title}}<br/>
+      <div class="news-tile">
+          <span class="" style="color: grey">{{geo_facet.[0]}}</span> {{title}}<br/>
+      </div>
     {{/each}}
   </div>
+<!-- {{#each tasks}}
+    {{text}}
+{{/each}} -->
+
+
+
 </template>
