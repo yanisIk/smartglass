@@ -12,7 +12,7 @@ Predictions = new Mongo.Collection("predictions");
 if (Meteor.isClient) {
 
   // When Headlines updates, send update to news template.
-  // Template.muni.helpers({
+  // Template.bus.helpers({
   //   headlines: function() {
   //     return Headlines.find({});
   //   }
