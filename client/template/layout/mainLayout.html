@@ -9,10 +9,12 @@
     <main>
         <div class="container">
         {{#if isAwake}}
-            {{> Template.dynamic template=page}}
+            {{#transition in="bounceInRight" out="bounceOutRight"}}
+                {{> Template.dynamic template=page}}
+            {{/transition}}
         {{else}}
             <!-- Display glowing logo -->
-            <img src="/images/logo.jpg" align="middle" class="center_logo_blink">
+            <img src="/images/logo.jpg" class="center_logo_blink">
         {{/if}}
         </div>
     </main>

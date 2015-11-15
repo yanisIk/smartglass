@@ -8,6 +8,11 @@ VoiceManager = {
             console.log('COMMAND: Sleep');
             States.goSleep();
         },
+        '(show) dashboard': function () {
+            console.log('COMMAND: Show dashboard');
+            States.wakeUp();
+            FlowRouter.go('dashboard');
+        },
         '(show) weather': function () {
             console.log('COMMAND: Show weather');
             States.wakeUp();
