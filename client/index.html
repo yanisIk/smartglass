@@ -3,11 +3,18 @@
 </head>
 
 <body>
-  {{> date}}
-  <div class="clearfix"> </div>
-  {{> time}}
-  <div class="clearfix"> </div>
-  {{> weather}}
-  <div class="clearfix"> </div>
-  {{> news}}
+    <div class="wrapper-global">
+        <div class="wrapper-weather animated fadeInDown">
+            {{> weather}}
+        </div>
+        <div class="wrapper-date-time animated fadeIn">
+            {{> date}}
+             <div class="clearfix"> </div>
+            {{> time}}
+        </div>
+
+        <div class="wrapper-news animated fadeIn">
+            {{> news}}
+        </div>
+  </div>
 </body>

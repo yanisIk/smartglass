@@ -49,20 +49,37 @@ html, body {
   src: url("//applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff2");
 }
 
+
+.wrapper-weather {
+    width: 70%;
+    position: relative;
+    float: left;
+}
+
+.week-forecast li {
+    border: 1px dashed solid;
+    border-radius: 100px;
+    margin-left: 20px;
+}
+
+.weather-table {
+    display: inline-block;
+    margin-top: 20px;
+}
+
 .news-tile {
+    font-size: 25px;
     padding: 30px;
-    border : 1px solid white;
     text-align: left;
 }
 
 .wrapper-news {
     height: 300px;
     overflow:scroll;
-    position: absolute;
-    left: 0;
-    top: 0;
     float: left;
-    -webkit-animation: enterFromRight 4s infinite ease alternate;
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
 }
 
 @-webkit-keyframes move {
@@ -75,7 +92,7 @@ html, body {
 }
 @-webkit-keyframes enterFromRight {
     0% {
-        margin-right: -300px;
+        margin-right: -600px;
     }
     100% {
         margin-left: 0px;
@@ -91,21 +108,22 @@ html, body {
     width: 50%;
     text-align: right;
     padding: 20px;
-    -webkit-animation-name: enterFromRight;
-    -webkit-animation-duration: 0.4s;
-    -webkit-animation-direction: left;
-    -webkit-animation-timing-function: ease;
 }
 
-
+.wrapper-date-time {
+    width: 30%;
+    float: right;
+}
 
 .wrapper-time {
     float: right;
     text-align: right;
+    display: block;
 
 }
 
 .wrapper-date {
     float: right;
     text-align: right;
+    display: block;
 }
