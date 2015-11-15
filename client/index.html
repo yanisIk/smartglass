@@ -3,6 +3,7 @@
 </head>
 
 <body>
+
     <div class="wrapper-global">
         <div class="wrapper-weather animated fadeInDown">
             {{> weather}}
@@ -17,4 +18,19 @@
             {{> news}}
         </div>
   </div>
+
+
+{{#if isAwake}}
+  {{> date}}
+  <div class="clearfix"> </div>
+  {{> time}}
+  <div class="clearfix"> </div>
+  {{> weather}}
+  <div class="clearfix"> </div>
+  {{> news}}
+{{else}}
+    <!-- Display glowing logo -->
+    <h1>ASLEEP : PLACEHOLDER FOR GLOWING LOGO</h1>
+{{/if}}
+
 </body>

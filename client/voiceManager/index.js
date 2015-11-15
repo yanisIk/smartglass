@@ -9,6 +9,12 @@ VoiceManager.commands  = {
         console.log('COMMAND: Sleep');
         States.goSleep();
     },
+    'show weather': function () {
+        console.log('COMMAND: Show weather');
+    },
+    'qui est la plus belle': function () {
+        console.log('COMMAND: Qui est la plus belle');
+    }
 }
 
 // Add our commands to annyang

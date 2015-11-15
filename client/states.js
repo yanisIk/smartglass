@@ -2,7 +2,7 @@
  * Created by Yanis on 2015-11-14.
  */
 States = {
-    sleep: new ReactiveVar(false),
+    sleep: new ReactiveVar(true),
     isAwake: function () {
         return !this.sleep.get();
     },
