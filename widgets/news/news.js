@@ -12,31 +12,17 @@ Headlines = new Mongo.Collection("headlines");
 if (Meteor.isClient) {
 
   // When Headlines updates, send update to news template.
-  Template.news.helpers({
+  Template.newsWidget.helpers({
     headlines: function() {
       return Headlines.find({});
     },
-    tasks: [
-      { text: "This is task 1" },
-      { text: "This is task 2" },
-      { text: "This is task 3" }
-  ],
-  autoScroll : function() {
-      window.scrollBy(0,1);
-      scrolldelay = setTimeout(pageScroll(),10);
-  }
-  })
+  });
 
-  Template.news.onRendered(function(){
-
-  })
-
-  Template.news.events({
-      "click .news-tile" : function(event,template){
-          console.log("event: ", event);
-          console.log("template: ", template);
-      }
-  })
+  Template.newsLarge.helpers({
+    headlines: function() {
+      return Headlines.find({});
+    },
+  });
 
   Meteor.call('newsStart');
 }

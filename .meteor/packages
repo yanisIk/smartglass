@@ -26,3 +26,5 @@ remcoder:chronos
 autopublish
 percolatestudio:synced-cron
 kadira:flow-router
+kadira:blaze-layout
+webtempest:animate

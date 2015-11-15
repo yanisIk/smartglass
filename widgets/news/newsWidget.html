@@ -1,15 +1,11 @@
-<template name="news" >
+<template name="newsWidget" >
   <div class="">
+  {{#transition in="bounceInRight" out="bounceOutRight"}}
     {{#each headlines}}
-      <div class="news-tile">
+      <div class="news-tile animated out">
           <span class="" style="color: grey">{{geo_facet.[0]}}</span> {{title}}<br/>
       </div>
     {{/each}}
+  {{/transition}}
   </div>
-<!-- {{#each tasks}}
-    {{text}}
-{{/each}} -->
-
-
-
 </template>

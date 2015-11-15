@@ -1,0 +1,141 @@
+
+html, body {
+  background: black;
+  color: white;
+  font-family: "San Francisco";
+  font-weight: 100;
+  font-size: 1.2em;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/** Ultra Light */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url("//applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff2");
+}
+
+/** Thin */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("//applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff2");
+}
+
+/** Medium */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: normal;
+  src: url("//applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff2");
+}
+
+/** Semi Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url("//applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff2");
+}
+
+/** Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: bold;
+  src: url("//applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff2");
+}
+
+
+.wrapper-weather {
+    width: 70%;
+    position: relative;
+    float: left;
+}
+
+.week-forecast li {
+    border: 1px dashed solid;
+    border-radius: 100px;
+    margin-left: 20px;
+}
+
+.weather-table {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.news-tile {
+    font-size: 25px;
+    padding: 10px;
+    text-align: left;
+}
+
+.wrapper-news {
+    height: 300px;
+    overflow:scroll;
+    float: left;
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+}
+
+@-webkit-keyframes move {
+    0% {
+        margin-left: -400px;
+    }
+    100% {
+        margin-left: 800px;
+    }
+}
+@-webkit-keyframes enterFromRight {
+    0% {
+        margin-right: -600px;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
+
+.news-list {
+
+}
+
+.wrapper-meteo {
+    float: right;
+    width: 50%;
+    text-align: right;
+    padding: 20px;
+}
+
+.wrapper-date-time {
+    width: 30%;
+    float: right;
+}
+
+.wrapper-time {
+    float: right;
+    text-align: right;
+    display: block;
+
+}
+
+.wrapper-date {
+    float: right;
+    text-align: right;
+    display: block;
+}
+
+.center_logo_blink {
+  animation: blinker 2s linear infinite;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle
+}
+
+@keyframes blinker {  
+  50% { opacity: 0.0; }
+}

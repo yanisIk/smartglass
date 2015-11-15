@@ -34,6 +34,7 @@ http@1.1.1
 id-map@1.0.4
 insecure@1.0.4
 jquery@1.11.4
+kadira:blaze-layout@2.2.0
 kadira:flow-router@2.9.0
 launch-screen@1.0.4
 livedata@1.0.15
@@ -72,3 +73,4 @@ underscore@1.0.4
 url@1.0.5
 webapp@1.2.2
 webapp-hashing@1.0.5
+webtempest:animate@0.1.9

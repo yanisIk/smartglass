@@ -1,0 +1,17 @@
+<template name="dashboard">
+  {{#transition in="bounceInRight" out="bounceOutRight"}}
+  	{{> date}}
+  {{/transition}}
+  <div class="clearfix"> </div>
+  {{#transition in="bounceInRight" out="bounceOutRight"}}
+  	{{> time}}
+  {{/transition}}
+  <div class="clearfix"> </div>
+  {{#transition in="bounceInRight" out="bounceOutRight"}}
+  	{{> weather}}
+  {{/transition}}
+  <div class="clearfix"> </div>
+  {{#transition in="bounceInRight" out="bounceOutRight"}}
+  	{{> newsWidget}}
+  {{/transition}}
+</template>

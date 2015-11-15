@@ -1,13 +1,22 @@
+<head>
+  <title>Mirror</title>
+</head>
+
 <template name="mainLayout">
     <header>
-        {{> headerNav}}
+        <!-- {{> headerNav}} -->
     </header>
     <main>
         <div class="container">
+        {{#if isAwake}}
             {{> Template.dynamic template=page}}
+        {{else}}
+            <!-- Display glowing logo -->
+            <img src="/images/logo.jpg" align="middle" class="center_logo_blink">
+        {{/if}}
         </div>
     </main>
     <footer>
-        {{> footer}}
+        <!-- {{> footer}} -->
     </footer>
 </template>
