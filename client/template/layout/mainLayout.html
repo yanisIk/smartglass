@@ -1,0 +1,13 @@
+<template name="mainLayout">
+    <header>
+        {{> headerNav}}
+    </header>
+    <main>
+        <div class="container">
+            {{> Template.dynamic template=page}}
+        </div>
+    </main>
+    <footer>
+        {{> footer}}
+    </footer>
+</template>
