@@ -3,8 +3,15 @@
 </head>
 
 <body>
+
+{{#if isAwake}}
   {{> date}}
   {{> time}}
   {{> weather}}
   {{> news}}
+{{else}}
+    <!-- Display glowing logo -->
+    <h1>ASLEEP : PLACEHOLDER FOR GLOWING LOGO</h1>
+{{/if}}
+
 </body>
