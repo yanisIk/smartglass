@@ -1,34 +1,31 @@
-# Home Mirror
+# Smart Glass
 
 > Web-based home mirror, inspired by [Hannah Mitt's project](https://github.com/HannahMitt/HomeMirror).
+
+Comes with many widgets (time, date, weather, news, and social) and can be voice controlled even offline.
 
 ## Install
 
 1. [Install Meteor](https://www.meteor.com/install)
 2. Clone this repo
-
     ```
-    $ git clone git@github.com:lambtron/homemirror.git
+    $ git clone git@github.com:yanisik/smartglass.git
     ```
-
-3. Deploy to Meteor
-
+3. Run the app
     ```
-    $ meteor deploy <your-name-here>.meteor.com
+    $ meteor
     ```
 
-4. Point your tablet to the URL and enable Kiosk mode
-5. Follow [Hannah Mitt's tutorial](https://github.com/HannahMitt/HomeMirror) for physically building the mirror
 
 ## Customize
 
 I decided to use Meteor for its real-time nature and ability to organize server and client side JavaScript in the same file.
 
-Every "widget" on the screen can be found in the [`./widgets`](https://github.com/lambtron/homemirror/tree/master/widgets) folder. Let's look at the [`time`](https://github.com/lambtron/homemirror/tree/master/widgets/time) widget as an example:
+Every "widget" on the screen can be found in the [`./widgets`] folder. Let's look at the [`time`] widget as an example:
 
 1. Create the folder `time` with `./time/index.html` and `./time/index.js`
 
-2. Define the `time` template in [`index.html`](https://github.com/lambtron/homemirror/blob/master/widgets/time/index.html)
+2. Define the `time` template in [`index.html`]
 
     ```
     <template name="time">
@@ -38,7 +35,7 @@ Every "widget" on the screen can be found in the [`./widgets`](https://github.co
     </template>
     ```
 
-3. Define the logic for rendering the `time` template in [`index.js`](https://github.com/lambtron/homemirror/blob/master/widgets/time/index.js)
+3. Define the logic for rendering the `time` template in [`index.js`]
 
     ```
     if (Meteor.isClient) {
@@ -50,7 +47,7 @@ Every "widget" on the screen can be found in the [`./widgets`](https://github.co
     }
     ```
 
-4. Add the `time` template to [`./client/index.html`](https://github.com/lambtron/homemirror/blob/master/client/index.html#L7)
+4. Add the `time` template to [`./client/index.html`]
 
     ```
     <head>
@@ -64,3 +61,4 @@ Every "widget" on the screen can be found in the [`./widgets`](https://github.co
       {{> news}}
     </body>
     ```
+    
